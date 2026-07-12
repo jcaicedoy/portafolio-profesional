@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portafolio profesional de Juan Vladimir Caicedo Yela, desarrollador de software especializado en Angular CLI, PHP y PostgreSQL.">
+  <meta name="author" content="Juan Vladimir Caicedo Yela">
+  <title>Juan Vladimir Caicedo | Ingeniero de Software</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="progress-bar" id="progressBar" aria-hidden="true"></div>
+
+  <header class="site-header" id="inicio">
+    <nav class="navbar container" aria-label="Navegación principal">
+      <a href="#inicio" class="brand" aria-label="Ir al inicio">
+        <span class="brand-mark">JVCY</span>
+        <span class="brand-text">Juan Vladimir Caicedo Yela</span>
+      </a>
+
+      <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="navMenu" aria-label="Abrir menú">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="#sobre-mi">Sobre mí</a></li>
+        <li><a href="#experiencia">Experiencia</a></li>
+        <li><a href="#tecnologias">Tecnologías</a></li>
+        <li><a href="#proyectos">Proyectos</a></li>
+        <li><a href="#formacion">Formación</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+
+    <section class="hero container">
+      <div class="hero-copy reveal">
+        <p class="eyebrow">Ingeniería de Software · Automatización · Transformación Digital</p>
+        <h1>
+          Desarrollo
+          <span>Angular, PHP y PostgreSQL.</span>
+        </h1>
+        <p class="hero-description">
+          Soy Juan Vladimir Caicedo Yela, Ingeniero en Sistemas e Informática 
+          con más de una década de experiencia en desarrollo de software, administración de sistemas,
+          automatización de procesos y soporte institucional.
+        </p>
+
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#proyectos">Ver proyectos</a>
+          <a class="btn btn-secondary" href="#contacto">Contactar</a>
+        </div>
+
+        <div class="hero-stats" aria-label="Resumen profesional">
+          <article>
+            <strong>12+</strong>
+            <span>Años de experiencia</span>
+          </article>
+          <article>
+            <strong>Full Stack</strong>
+            <span>Angular · PHP · PostgreSQL</span>
+          </article>
+          <article>
+            <strong>DevOps</strong>
+            <span>Git · CI/CD · PyTest</span>
+          </article>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal" aria-hidden="true">
+        <div class="code-window">
+          <div class="window-top">
+            <span></span><span></span><span></span>
+          </div>
+          <pre><code><span class="code-blue">const</span> perfil = {
+  nombre: <span class="code-green">"Juan Vladimir Caicedo Yela"</span>,
+  rol: <span class="code-green">"Ingeniero en Sistemas e Informática"</span>,
+  stack: [
+    <span class="code-green">"Angular CLI"</span>,
+    <span class="code-green">"PHP"</span>,
+    <span class="code-green">"PostgreSQL"</span>
+  ],
+  enfoque: <span class="code-green">"Automatización y calidad"</span>
+};</code></pre>
+        </div>
+      </div>
+    </section>
+  </header>
+
+  <main>
+    <section id="sobre-mi" class="section container">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Perfil profesional</p>
+        <h2>Sobre mí</h2>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-copy reveal">
+          <p>
+            Actualmente me desempeño en la Agencia de Regulación y Control Fito y Zoosanitario
+            como Analista Distrital y de Articulación Territorial de Tecnologías de la Información.
+            Mi trabajo principal se enfoca en el desarrollo y mantenimiento de aplicaciones institucionales
+            construidas con Angular CLI, PHP y PostgreSQL.
+          </p>
+          <p>
+            Mi experiencia combina desarrollo de software, análisis de datos, administración de bases de datos,
+            soporte a usuarios, gestión de infraestructura y mejora continua de procesos. Esta visión integral
+            me permite comprender las necesidades del negocio y convertirlas en soluciones tecnológicas
+            funcionales, mantenibles y alineadas con los objetivos institucionales.
+          </p>
+          <p>
+            Actualmente curso una Maestría en Ingeniería en Software con mención en Sistemas Inteligentes e
+            Intensivos de Datos, fortaleciendo mis competencias en automatización, calidad, DevOps y
+            arquitectura de software.
+          </p>
+        </div>
+
+        <div class="about-cards">
+          <article class="info-card reveal">
+            <span class="card-number">01</span>
+            <h3>Desarrollo empresarial</h3>
+            <p>Construcción y mantenimiento de soluciones web para procesos institucionales críticos.</p>
+          </article>
+
+          <article class="info-card reveal">
+            <span class="card-number">02</span>
+            <h3>Bases de datos</h3>
+            <p>Diseño de consultas, análisis de información y administración de soluciones sobre PostgreSQL.</p>
+          </article>
+
+          <article class="info-card reveal">
+            <span class="card-number">03</span>
+            <h3>Automatización</h3>
+            <p>Uso de pruebas, repositorios y flujos CI/CD para mejorar la calidad y repetibilidad del software.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="experiencia" class="section section-dark">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Trayectoria profesional</p>
+          <h2>Experiencia</h2>
+        </div>
+
+        <div class="timeline">
+          <article class="timeline-item reveal">
+            <div class="timeline-date">2013 — Actualidad</div>
+            <div class="timeline-content">
+              <h3>Analista Distrital y de Articulación Territorial de Tecnologías de la Información</h3>
+              <p class="company">Agencia de Regulación y Control Fito y Zoosanitario</p>
+              <ul>
+                <li>Desarrollo y mantenimiento de aplicaciones web con Angular CLI, PHP y PostgreSQL.</li>
+                <li>Automatización y mejora de procesos institucionales.</li>
+                <li>Administración funcional y soporte de sistemas de información.</li>
+                <li>Elaboración de consultas SQL, reportes y controles de calidad de datos.</li>
+                <li>Gestión de servicios tecnológicos, infraestructura y atención a usuarios.</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="timeline-item reveal">
+            <div class="timeline-date">2013</div>
+            <div class="timeline-content">
+              <h3>Instructor de talleres de computación</h3>
+              <p class="company">GAD Municipal de Santo Domingo</p>
+              <p>
+                Capacitación en herramientas informáticas y alfabetización digital dentro de programas
+                educativos comunitarios.
+              </p>
+            </div>
+          </article>
+
+          <article class="timeline-item reveal">
+            <div class="timeline-date">2012 — 2013</div>
+            <div class="timeline-content">
+              <h3>Pasante de Sistemas</h3>
+              <p class="company">GAD Provincial de Santo Domingo de los Tsáchilas</p>
+              <p>
+                Soporte técnico, mantenimiento de equipos y apoyo al Departamento de Tecnologías de la Información.
+              </p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="tecnologias" class="section container">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Stack tecnológico</p>
+        <h2>Tecnologías y competencias</h2>
+      </div>
+
+      <div class="tech-grid">
+        <article class="tech-card reveal">
+          <div class="tech-icon">&lt;/&gt;</div>
+          <h3>Frontend</h3>
+          <p>Angular CLI, TypeScript, JavaScript, HTML5 y CSS3.</p>
+        </article>
+
+        <article class="tech-card reveal">
+          <div class="tech-icon">{ }</div>
+          <h3>Backend</h3>
+          <p>PHP, servicios web, validaciones de negocio y APIs.</p>
+        </article>
+
+        <article class="tech-card reveal">
+          <div class="tech-icon">DB</div>
+          <h3>Base de datos</h3>
+          <p>PostgreSQL, SQL, consultas avanzadas, funciones y análisis de datos.</p>
+        </article>
+
+        <article class="tech-card reveal">
+          <div class="tech-icon">CI</div>
+          <h3>Automatización</h3>
+          <p>Git, GitHub, GitHub Actions, PyTest y fundamentos de CI/CD.</p>
+        </article>
+
+        <article class="tech-card reveal">
+          <div class="tech-icon">IT</div>
+          <h3>Infraestructura</h3>
+          <p>Linux, redes, soporte técnico y administración de servicios tecnológicos.</p>
+        </article>
+
+        <article class="tech-card reveal">
+          <div class="tech-icon">QA</div>
+          <h3>Calidad</h3>
+          <p>Pruebas unitarias, control de cambios, revisión de código y documentación técnica.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="proyectos" class="section section-soft">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Trabajo destacado</p>
+          <h2>Proyectos y áreas de aplicación</h2>
+        </div>
+
+        <div class="projects-grid">
+          <article class="project-card featured reveal">
+            <div class="project-top">
+              <span class="project-tag">Sistema institucional</span>
+              <span class="project-year">Actual</span>
+            </div>
+            <h3>SIFAE</h3>
+            <p>
+              Participación en el desarrollo, mantenimiento y evolución de un sistema institucional para
+              la gestión de información animal, identificación, catastro, movilización y procesos relacionados.
+            </p>
+            <div class="project-tech">
+              <span>Angular CLI</span>
+              <span>PHP</span>
+              <span>PostgreSQL</span>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-top">
+              <span class="project-tag">Automatización</span>
+            </div>
+            <h3>Pruebas y flujos CI</h3>
+            <p>
+              Implementación de ejercicios con PyTest, control de versiones y GitHub Actions para validar
+              automáticamente cambios realizados en repositorios.
+            </p>
+            <div class="project-tech">
+              <span>Python</span>
+              <span>PyTest</span>
+              <span>GitHub Actions</span>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-top">
+              <span class="project-tag">Datos</span>
+            </div>
+            <h3>Reportes y control de información</h3>
+            <p>
+              Desarrollo de consultas SQL para reportes, auditoría, control de registros y apoyo a la toma
+              de decisiones en procesos institucionales.
+            </p>
+            <div class="project-tech">
+              <span>PostgreSQL</span>
+              <span>SQL</span>
+              <span>Análisis de datos</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="formacion" class="section container">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Formación académica</p>
+        <h2>Educación y aprendizaje continuo</h2>
+      </div>
+
+      <div class="education-grid">
+        <article class="education-card reveal">
+          <span class="education-status">En curso</span>
+          <h3>Maestría en Ingeniería en Software</h3>
+          <p>Universidad Estatal de Milagro — UNEMI</p>
+          <small>Mención en Sistemas Inteligentes e Intensivos de Datos.</small>
+        </article>
+
+        <article class="education-card reveal">
+          <span class="education-status">Título profesional</span>
+          <h3>Ingeniería Informática</h3>
+          <p>Universidad Regional Autónoma de los Andes — UNIANDES</p>
+          <small>Formación en desarrollo de software, sistemas, bases de datos e infraestructura.</small>
+        </article>
+
+        <article class="education-card reveal">
+          <span class="education-status">Capacitación</span>
+          <h3>Formación complementaria</h3>
+          <p>Seguridad de la información, redes, mejora de procesos y gestión pública.</p>
+          <small>Aprendizaje continuo orientado al fortalecimiento técnico y profesional.</small>
+        </article>
+      </div>
+    </section>
+
+    <section id="contacto" class="section contact-section">
+      <div class="container contact-content reveal">
+        <div>
+          <p class="eyebrow">Contacto</p>
+          <h2>Conversemos sobre tecnología y desarrollo de software.</h2>
+          <p>
+            Estoy interesado en proyectos relacionados con desarrollo web, automatización,
+            calidad de software, bases de datos y transformación digital.
+          </p>
+        </div>
+
+        <div class="contact-actions">
+          <a class="btn btn-primary" href="mailto:vlacaicedo77@gmail.com">Enviar correo</a>
+          <a class="btn btn-secondary light" href="https://github.com/" target="_blank" rel="noopener noreferrer">Ver GitHub</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-content">
+      <p>© <span id="currentYear"></span> Juan Vladimir Caicedo Yela.</p>
+      <p>Portafolio académico desarrollado para Automatización de Software.</p>
+    </div>
+  </footer>
+
+  <button class="back-to-top" id="backToTop" aria-label="Volver arriba">↑</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
